@@ -30,12 +30,11 @@
   font-family: 'Playfair Display SC', serif;
   margin: auto;
   padding: 2em 3em 3em 3em;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../public/bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url('../public/bg.jpg');
 }
-
 
 .upload-btn-wrapper {
   position: relative;

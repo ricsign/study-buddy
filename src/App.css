@@ -36,6 +36,21 @@
   background-image: url('../public/bg.jpg');
 }
 
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
 textarea, input {
   font-family: 'Nunito Sans', sans-serif;
   padding: 10px;

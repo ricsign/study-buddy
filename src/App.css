@@ -28,7 +28,12 @@
 
 .main {
   font-family: 'Playfair Display SC', serif;
+  margin: auto;
   padding: 2em 3em 3em 3em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../public/bg.jpg');
 }
 
 textarea, input {
@@ -37,6 +42,7 @@ textarea, input {
   font-size: 20px;
   font-weight: bold;
   border-radius: 10px;
+  border-width: 0;
 }
 
 .instructions-btn {

@@ -49,10 +49,10 @@ function App() {
             <h1>Ric's Study Buddy</h1>
 
             <button className="instructions-btn" onClick={() => setIsInstructionsVisible(isInstructionsVisible => !isInstructionsVisible)}>
-              {isInstructionsVisible ? "Hide Instructions" : "Show Instructions"}
+              {isInstructionsVisible ? "Minifito" : "Expandito"}
             </button>
             {isInstructionsVisible && 
-              <p className="body-text">Paste the passage in the following text area and type your question you want to answer regarding the passage. After pressing <b>Enter</b> in the question field, the study buddy will help you find the answer.</p>
+              <small className="body-text">Paste the passage in the following text area and type your question you want to answer regarding the passage. After pressing <b>Enter</b> in the question field, the study buddy will help you find the answer.</small>
             }   
             
             {/* Passage: In economics, inflation is a general increase in the prices of goods and services in an economy. When the general price level rises, each unit of currency buys fewer goods and services; consequently, inflation corresponds to a reduction in the purchasing power of money. The opposite of inflation is deflation, a sustained decrease in the general price level of goods and services. The common measure of inflation is the inflation rate, the annualized percentage change in a general price index. As prices do not all increase at the same rate, the consumer price index (CPI) is often used for this purpose. The employment cost index is also used for wages in the United States.  */}

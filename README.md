@@ -1,4 +1,7 @@
 # Please Visit https://ricsign.github.io/study-buddy/
+
+**Image recognition, text extraction, and answer your question.**
+
 **Video Demo: https://youtu.be/I8zg716BwBc**
 
 
